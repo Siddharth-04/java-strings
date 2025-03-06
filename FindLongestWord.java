@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 class FindLongestWord{
     public static void main(String[] args) {
-        String str = "Find the longest word";
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
         String [] stringArray = str.split(" ");
         
         String ans = "";
