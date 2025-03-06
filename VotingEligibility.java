@@ -28,8 +28,7 @@ class VotingEligibilty{
     }
 
     public static void print2dArray(String [][] arr){
-        PrintStream out = System.out;
-        out.println("Age    Eligible");
+        System.out.println("Age    Eligible");
         for(int i=0 ; i<arr.length ; i++){
             out.println(arr[i][0] + "    " + arr[i][1]);
         }
